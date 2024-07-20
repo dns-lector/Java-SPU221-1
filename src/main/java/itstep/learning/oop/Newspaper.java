@@ -10,6 +10,7 @@ import java.util.Date;
 public class Newspaper extends Literature {
     private static final SimpleDateFormat dottedFormat =
             new SimpleDateFormat( "dd.MM.yyyy" );
+    @Required
     private Date date;
 
     public Newspaper( String title, Date date ) {

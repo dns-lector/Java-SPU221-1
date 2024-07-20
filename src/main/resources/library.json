@@ -1,0 +1,9 @@
+[
+  {"title":"Art of Programming", "author":"D. Knuth", "publisher":"Smith and Son" },
+  {"title":"Daily Mail", "date":"13.07.2024" },
+  {"title":"Quantum Mechanics", "number":"42" },
+  {"title":"Martin Eden", "author":"J. London", "publisher":"Smith and Son" },
+  {"title":"Daily Telegraph", "date":"13.07.2024" },
+  {"title":"Argc & Argv", "number":"42" },
+  {"title":"How to ride a cloud", "publisher":"Smith and Smith" }
+]

@@ -4,6 +4,7 @@ import com.google.gson.JsonObject;
 
 @Periodic
 public class Journal extends Literature implements Copyable {
+    @Required
     private int number;
 
     public int getNumber() {
@@ -22,6 +23,7 @@ public class Journal extends Literature implements Copyable {
         );
     }
 
+    @FromJsonFactory
     public static Journal fromJson( JsonObject jsonObject ) {
         Journal journal = new Journal();
         journal.setTitle( jsonObject.get("title").getAsString() );

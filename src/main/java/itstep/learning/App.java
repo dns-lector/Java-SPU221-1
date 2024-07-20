@@ -6,6 +6,7 @@ import com.google.gson.stream.JsonReader;
 import itstep.learning.basics.Arrs;
 import itstep.learning.basics.Console;
 import itstep.learning.basics.Vars;
+import itstep.learning.fs.FileDemo;
 import itstep.learning.oop.OopDemo;
 
 import java.io.StringReader;
@@ -22,7 +23,8 @@ public class App
         // new Vars().demo();
         // new Arrs().demo();
         // new Console().demo();
-        new OopDemo().run();
+         new OopDemo().run();
+//        new FileDemo().run();
 
     }
 }
